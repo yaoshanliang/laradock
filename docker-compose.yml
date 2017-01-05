@@ -8,7 +8,10 @@ services:
         image: tianon/true
         volumes:
             - ../:/var/www
-#            - ../sample/:/var/www/sample
+            - ../laravel5.3:/var/www/laravel5.3
+            - ../flower:/var/www/flower
+            - ../../relax:/var/www/relax
+            - ../laravelnews:/var/www/laravelnews
 
 ### Workspace Utilities Container ###########################
 
